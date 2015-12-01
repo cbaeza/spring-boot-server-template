@@ -11,7 +11,7 @@
 
     <groupId>com.cbaeza</groupId>
     <artifactId>spring-boot-server-template</artifactId>
-    <version>0.1.1-SNAPSHOT</version>
+    <version>1.0-SNAPSHOT</version>
     <packaging>pom</packaging>
 
     <name>Spring boot server ans webapp template</name>
@@ -23,6 +23,7 @@
 
     <modules>
         <module>server</module>
+        <module>webapp</module>
     </modules>
 
     <properties>
