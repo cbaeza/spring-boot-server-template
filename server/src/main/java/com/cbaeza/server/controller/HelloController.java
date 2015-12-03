@@ -1,9 +1,11 @@
 package com.cbaeza.server.controller;
 
+import com.cbaeza.server.controller.dto.GreetingsDto;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
 import org.springframework.util.MimeTypeUtils;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
-import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;
 
 /**
@@ -13,13 +15,12 @@ import org.springframework.web.bind.annotation.RestController;
  * @since 02.12.15
  */
 @RestController
-@RequestMapping( value = "/")
+@RequestMapping(value = "/")
 public class HelloController {
 
-    @RequestMapping(method = RequestMethod.GET, produces = MimeTypeUtils.TEXT_HTML_VALUE)
-    @ResponseBody
-    public String sayHello(){
-        return "Hello World!";
+    @RequestMapping(method = RequestMethod.GET, produces = MimeTypeUtils.APPLICATION_JSON_VALUE)
+    public ResponseEntity<GreetingsDto> sayHello() {
+        return new ResponseEntity<GreetingsDto>(new GreetingsDto("Hello World"), HttpStatus.OK);
     }
 
 }

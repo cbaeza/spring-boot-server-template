@@ -43,7 +43,7 @@ public class HelloControllerTest {
     public void testGet() throws Exception {
         mockMvc.perform(get("/"))
                 .andExpect(status().isOk())
-                .andExpect(content().contentType("text/html"))
-                .andExpect(content().string("Hello World!"));
+                .andExpect(content().contentType("application/json"));
+        // TODO improve test with test utils
     }
 }

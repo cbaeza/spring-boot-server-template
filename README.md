@@ -12,4 +12,10 @@ Start the server via Maven
 Call
 > http://localhost:8090/server/
 
+Mapping
+> http://localhost:8090/server/mappings
+
+### Features
+- OPS ready via actuator
+
 ## webapp
