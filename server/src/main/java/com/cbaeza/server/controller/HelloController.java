@@ -19,7 +19,7 @@ public class HelloController {
     @RequestMapping(method = RequestMethod.GET, produces = MimeTypeUtils.TEXT_HTML_VALUE)
     @ResponseBody
     public String sayHello(){
-        return "hello world!";
+        return "Hello World!";
     }
 
 }
