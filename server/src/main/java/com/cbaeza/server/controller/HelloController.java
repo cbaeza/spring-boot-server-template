@@ -3,6 +3,7 @@ package com.cbaeza.server.controller;
 import org.springframework.util.MimeTypeUtils;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;
 
 /**
@@ -16,8 +17,9 @@ import org.springframework.web.bind.annotation.RestController;
 public class HelloController {
 
     @RequestMapping(method = RequestMethod.GET, produces = MimeTypeUtils.TEXT_HTML_VALUE)
+    @ResponseBody
     public String sayHello(){
-        return "hello";
+        return "hello world!";
     }
 
 }
