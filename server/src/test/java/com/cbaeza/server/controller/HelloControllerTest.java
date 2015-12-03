@@ -16,6 +16,8 @@ import org.springframework.test.web.servlet.setup.MockMvcBuilders;
 import org.springframework.web.context.WebApplicationContext;
 
 import com.cbaeza.server.Application;
+import com.cbaeza.server.TestUtils;
+import com.cbaeza.server.controller.dto.GreetingsDto;
 
 /**
  * <br/>
@@ -43,7 +45,7 @@ public class HelloControllerTest {
     public void testGet() throws Exception {
         mockMvc.perform(get("/"))
                 .andExpect(status().isOk())
-                .andExpect(content().contentType("application/json"));
-        // TODO improve test with test utils
+                .andExpect(content().contentType("application/json"))
+                .andExpect(content().string(TestUtils.convertObjectToJsonString(new GreetingsDto("Hello World"))));
     }
 }
