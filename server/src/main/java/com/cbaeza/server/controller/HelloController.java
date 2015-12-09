@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RestController;
 /**
  * <br/>
  *
- * @author carlos.baeza , carlos.baeza@idealo.de<br/>
+ * @author carlos.baeza , carlos.baeza@posteo.de<br/>
  * @since 02.12.15
  */
 @RestController

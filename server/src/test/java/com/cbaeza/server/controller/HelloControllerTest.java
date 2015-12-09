@@ -22,7 +22,7 @@ import com.cbaeza.server.controller.dto.GreetingsDto;
 /**
  * <br/>
  *
- * @author carlos.baeza , carlos.baeza@idealo.de<br/>
+ * @author carlos.baeza , carlos.baeza@posteo.de<br/>
  * @since 03.12.15
  */
 

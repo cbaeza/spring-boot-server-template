@@ -9,7 +9,7 @@ import java.io.IOException;
  * Test utils
  * <br/>
  *
- * @author carlos.baeza , carlos.baeza@idealo.de<br/>
+ * @author carlos.baeza , carlos.baeza@posteo.de<br/>
  * @since 03.12.15
  */
 public class TestUtils {

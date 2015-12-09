@@ -9,7 +9,7 @@ import java.util.Arrays;
 /**
  * <br/>
  *
- * @author carlos.baeza , carlos.baeza@idealo.de<br/>
+ * @author carlos.baeza , carlos.baeza@posteo.de<br/>
  * @since 01.12.15
  */
 @SpringBootApplication
