@@ -1,4 +1,4 @@
-package com.cbaeza.server.controller.dto;
+package com.cbaeza.server.dto;
 
 /**
  * <br/>

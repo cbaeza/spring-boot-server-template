@@ -17,7 +17,7 @@ import org.springframework.web.context.WebApplicationContext;
 
 import com.cbaeza.server.Application;
 import com.cbaeza.server.TestUtils;
-import com.cbaeza.server.controller.dto.GreetingsDto;
+import com.cbaeza.server.dto.GreetingsDto;
 
 /**
  * <br/>

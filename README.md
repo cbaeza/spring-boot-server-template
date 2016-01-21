@@ -10,10 +10,10 @@ Start the server via Maven
 > mvn -f server/pom.xml spring-boot:run
 
 Call
-> http://localhost:8090/server/
+> http://localhost:8090/api/
 
 Mapping
-> http://localhost:8090/server/mappings
+> http://localhost:8090/api/mappings
 
 ### Features
 - OPS ready via actuator
