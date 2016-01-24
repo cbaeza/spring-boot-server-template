@@ -20,6 +20,7 @@ import com.cbaeza.server.TestUtils;
 import com.cbaeza.server.dto.GreetingsDto;
 
 /**
+ * Using spring test
  * <br/>
  *
  * @author carlos.baeza , carlos.baeza@posteo.de<br/>
