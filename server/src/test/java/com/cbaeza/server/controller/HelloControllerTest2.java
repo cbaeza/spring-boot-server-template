@@ -19,7 +19,12 @@ import static com.jayway.restassured.RestAssured.*;
 public class HelloControllerTest2 {
 
 	@Test
-	public void test() {
+	public void test200(){
+		get("/api").then().assertThat().statusCode(200);
+	}
+
+	@Test
+	public void test404() {
 		get("/api/id/65454").then().assertThat().statusCode(404);
 	}
 }
